@@ -1,3 +1,5 @@
+// Custom bind
+
 Function.prototype.bind = function(whoIsCallingMe){
   const self = this;
   return function(){
